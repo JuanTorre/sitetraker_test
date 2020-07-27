@@ -1,0 +1,7 @@
+{
+    "baseUrl": "https://developer.salesforce.com/docs/component-library/documentation/en/48.0/lwc",
+    "ignoreTestFiles": "**/examples/*",
+    "viewportHeight": 768,
+    "viewportWidth": 1366,
+    "chromeWebSecurity": false
+}
