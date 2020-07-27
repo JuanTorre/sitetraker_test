@@ -3,5 +3,6 @@
     "ignoreTestFiles": "**/examples/*",
     "viewportHeight": 768,
     "viewportWidth": 1366,
-    "chromeWebSecurity": false
+    "chromeWebSecurity": false,
+    "experimentalShadowDomSupport": true
 }

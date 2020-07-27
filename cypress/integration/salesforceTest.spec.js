@@ -9,8 +9,6 @@ describe('salesforce test', () => {
         cy.xpath('//span[contains(text(),"Component Reference")]', { timeout: 10 * 2000 })
             .click({force: true})
 
-        //cy.wait(2000)
-
         //asserts that title for Components sections is displayed
         cy.xpath('//h2[@class="slds-text-heading_medium"]').invoke('text').then( text => {
             expect(text).to.equal('Components')
